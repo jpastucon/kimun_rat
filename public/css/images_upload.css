@@ -1,0 +1,23 @@
+.img-thumb {
+  max-height: 250px;
+  border: 2px solid none;
+  border-radius: 3px;
+  padding: 1px;
+  cursor: pointer;
+}
+.img-thumb-wrapper {
+  display: inline-block;
+  margin: 10px 10px 0 0;
+}
+.remove {
+  display: block;
+  background: #444;
+  border: 1px solid none;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+.remove:hover {
+  background: white;
+  color: black;
+}

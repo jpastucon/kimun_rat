@@ -1,0 +1,115 @@
+<?php
+
+namespace Database\Seeders;
+
+use App\Models\Cliente;
+use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use Illuminate\Database\Seeder;
+
+class ClienteSeeder extends Seeder
+{
+    public function run()
+    {
+        Cliente::factory()->create(['name' => 'Acero Austral']);
+        Cliente::factory()->create(['name' => 'Aceros e Ingeniería']);
+        Cliente::factory()->create(['name' => 'Alfametal']);
+        Cliente::factory()->create(['name' => 'Altamar']);
+        Cliente::factory()->create(['name' => 'AMCS']);
+        Cliente::factory()->create(['name' => 'Amesti']);
+        Cliente::factory()->create(['name' => 'Andritz']);
+        Cliente::factory()->create(['name' => 'Arrigoni']);
+        Cliente::factory()->create(['name' => 'Asmar Valparaiso']);
+        Cliente::factory()->create(['name' => 'Astilleros Arica']);
+        Cliente::factory()->create(['name' => 'Auel']);
+        Cliente::factory()->create(['name' => 'Austin Antofagasta']);
+        Cliente::factory()->create(['name' => 'Balmetal']);
+        Cliente::factory()->create(['name' => 'Bosca']);
+        Cliente::factory()->create(['name' => 'Bovmetal']);
+        Cliente::factory()->create(['name' => 'Canalinox']);
+        Cliente::factory()->create(['name' => 'Catec']);
+        Cliente::factory()->create(['name' => 'Chileinox']);
+        Cliente::factory()->create(['name' => 'Cical']);
+        Cliente::factory()->create(['name' => 'Cimtec']);
+        Cliente::factory()->create(['name' => 'D&C Ingeniería']);
+        Cliente::factory()->create(['name' => 'Dagomet']);
+        Cliente::factory()->create(['name' => 'Delgado']);
+        Cliente::factory()->create(['name' => 'DT Hiload Antofagasta']);
+        Cliente::factory()->create(['name' => 'EDM']);
+        Cliente::factory()->create(['name' => 'Emaresa']);
+        Cliente::factory()->create(['name' => 'Emem']);
+        Cliente::factory()->create(['name' => 'Fabricaciones Mecánicas']);
+        Cliente::factory()->create(['name' => 'Ferrocentro']);
+        Cliente::factory()->create(['name' => 'Food truck']);
+        Cliente::factory()->create(['name' => 'Frutas de Curicó Ltda.']);
+        Cliente::factory()->create(['name' => 'Gamagas']);
+        Cliente::factory()->create(['name' => 'Genesis']);
+        Cliente::factory()->create(['name' => 'Guzga']);
+        Cliente::factory()->create(['name' => 'Hernan Gorsse']);
+        Cliente::factory()->create(['name' => 'Hexa']);
+        Cliente::factory()->create(['name' => 'Hidromec']);
+        Cliente::factory()->create(['name' => 'Inamar']);
+        Cliente::factory()->create(['name' => 'Ingeniería Guilmay']);
+        Cliente::factory()->create(['name' => 'Insesa']);
+        Cliente::factory()->create(['name' => 'Invenio']);
+        Cliente::factory()->create(['name' => 'IPF']);
+        Cliente::factory()->create(['name' => 'JJ Ltda']);
+        Cliente::factory()->create(['name' => 'Jomar']);
+        Cliente::factory()->create(['name' => 'Kupfer']);
+        Cliente::factory()->create(['name' => 'Llorente']);
+        Cliente::factory()->create(['name' => 'Luxor']);
+        Cliente::factory()->create(['name' => 'Machile']);
+        Cliente::factory()->create(['name' => 'Maestranza Barra']);
+        Cliente::factory()->create(['name' => 'Maestranza Nacional']);
+        Cliente::factory()->create(['name' => 'Maestranza Acuña']);
+        Cliente::factory()->create(['name' => 'Maestranza Barra SpA']);
+        Cliente::factory()->create(['name' => 'Maestranza Cachapoal']);
+        Cliente::factory()->create(['name' => 'Maestranza Campos']);
+        Cliente::factory()->create(['name' => 'Maestranza Roche']);
+        Cliente::factory()->create(['name' => 'Maestranza Tormec']);
+        Cliente::factory()->create(['name' => 'Manuel Merino']);
+        Cliente::factory()->create(['name' => 'Mapar']);
+        Cliente::factory()->create(['name' => 'Maquinfra']);
+        Cliente::factory()->create(['name' => 'Marmevit']);
+        Cliente::factory()->create(['name' => 'Matec']);
+        Cliente::factory()->create(['name' => 'Maving']);
+        Cliente::factory()->create(['name' => 'MCA Construcción']);
+        Cliente::factory()->create(['name' => 'Mectron']);
+        Cliente::factory()->create(['name' => 'Metalmack']);
+        Cliente::factory()->create(['name' => 'Metalradic']);
+        Cliente::factory()->create(['name' => 'Metso']);
+        Cliente::factory()->create(['name' => 'MIT']);
+        Cliente::factory()->create(['name' => 'Moises Vargas']);
+        Cliente::factory()->create(['name' => 'Nofermaq']);
+        Cliente::factory()->create(['name' => 'Petrcio Industrial']);
+        Cliente::factory()->create(['name' => 'Petricio Santiago']);
+        Cliente::factory()->create(['name' => 'Pietrasanta']);
+        Cliente::factory()->create(['name' => 'Polimin']);
+        Cliente::factory()->create(['name' => 'PPI']);
+        Cliente::factory()->create(['name' => 'Procemet']);
+        Cliente::factory()->create(['name' => 'Proexi']);
+        Cliente::factory()->create(['name' => 'Proingas']);
+        Cliente::factory()->create(['name' => 'Prolínea']);
+        Cliente::factory()->create(['name' => 'Raptor']);
+        Cliente::factory()->create(['name' => 'RASA']);
+        Cliente::factory()->create(['name' => 'Reinike']);
+        Cliente::factory()->create(['name' => 'Reliper']);
+        Cliente::factory()->create(['name' => 'Revesmin']);
+        Cliente::factory()->create(['name' => 'Revive']);
+        Cliente::factory()->create(['name' => 'Servimet']);
+        Cliente::factory()->create(['name' => 'Servimetal']);
+        Cliente::factory()->create(['name' => 'Silcometal']);
+        Cliente::factory()->create(['name' => 'Silentium']);
+        Cliente::factory()->create(['name' => 'Soldanorte']);
+        Cliente::factory()->create(['name' => 'South Mining']);
+        Cliente::factory()->create(['name' => 'SSAB']);
+        Cliente::factory()->create(['name' => 'Swedmaq']);
+        Cliente::factory()->create(['name' => 'Tecnorevest']);
+        Cliente::factory()->create(['name' => 'ThyssenKrupp']);
+        Cliente::factory()->create(['name' => 'TMT']);
+        Cliente::factory()->create(['name' => 'Tremac']);
+        Cliente::factory()->create(['name' => 'TYT']);
+        Cliente::factory()->create(['name' => 'Valencia']);
+        Cliente::factory()->create(['name' => 'Zublin']);
+        Cliente::factory()->create(['name' => 'Otro']);
+    }
+}
